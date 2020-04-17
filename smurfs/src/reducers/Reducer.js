@@ -1,3 +1,6 @@
+import { GET_SMURFS, ADD_SMURFS, SET_ERROR, POST_SMURFS} from '../actions/Actions';
+
+
 const initialState = {
     smurfs: [],
     isFetchingData: false,
@@ -5,7 +8,7 @@ const initialState = {
 }
 
 
-export const smurfReducer = (state = initialState, action)=>{
+ export const Reducer = (state = initialState, action)=>{
     switch(action.type){
         case GET_SMURFS:
             return {

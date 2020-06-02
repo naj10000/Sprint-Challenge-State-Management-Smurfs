@@ -22,12 +22,12 @@ const initialState = {
                 smurfs:action.payload
             };
 
-        case SET_ERROR:
-            return {
-                ...state,
-                isFetchingData: false,
-                error: action.payload
-            };
+        // case SET_ERROR:
+        //     return {
+        //         ...state,
+        //         isFetchingData: false,
+        //         error: action.payload
+        //     };
 
         case POST_SMURFS: 
             return {
